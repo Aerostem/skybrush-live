@@ -1,0 +1,690 @@
+{
+  "APIKeysTab": {
+    "description": "Egyes térképcsempe szolgáltatók API kulcs nélkül is működnek; ebben az esetben egy alapértelmezett API kulcs van használatban. Ez az API kulcs minden felhasználóval meg van osztva. Nem vállalunk garanciát a térképcsempék elérhetőségére, ha az alapértelmezett megosztott API kulcs van használatban."
+  },
+  "ConnectionStatusMiniList": {
+    "noConnections": "Ez a szerver nem használ kapcsolatokat.",
+    "useSecondaryChannel": "Másodlagos csatorna használata"
+  },
+  "DrawingToolbar": {
+    "addMarker": "Jelölő hozzáadása",
+    "addWaypoint": "Útvonalpont hozzáadása",
+    "cutHole": "Lyuk vágás sokszögbe",
+    "drawCircle": "Kör rajzolás",
+    "drawPath": "Útvonal rajzolás",
+    "drawPolygon": "Sokszög rajzolás",
+    "drawRectangle": "Négyszög rajzolás",
+    "editFeature": "Objektumok szerkesztése"
+  },
+  "OnboardPreflightChecksDialog": {
+    "noError": "Egyik drón sem jelzett hibát.",
+    "passed": "Automata fedélzeti ellenőrzés rendben.",
+    "signOffOn": "Automata fedélzeti ellenőrzés nyugtázása"
+  },
+  "RTKCorrectionSourceSelector": {
+    "RTKCorrections": "RTK korrekciók",
+    "error": "Hiba az RTK források szerverről történő betöltése közben",
+    "noRTKData": "Nincsenek RTK adatforrások a szerveren",
+    "pleaseWait": "Kérem várjon, RTK források betöltése…"
+  },
+  "RTKMessage": {
+    "noRTKMessagesYet": "Még nem érkezett RTK üzenet"
+  },
+  "RTKStatusMiniList": {
+    "satelliteCount": "Műholdak száma",
+    "surveyInProgress": "A felmérés folyamatban…",
+    "surveyNo": "Nincs felmérés folyamatban",
+    "surveySuccesful": "A felmérés sikeres"
+  },
+  "UAVList": {
+    "allUAVs": "Összes drón",
+    "assignedUAVs": "Hozzárendelt drónok",
+    "spareUAVs": "Tartalék drónok"
+  },
+  "UAVOpButtonGrp": {
+    "armMotors": "Motorok indítása",
+    "details": "Részletek…",
+    "disarmMotors": "Motorok leállítása",
+    "flashLights": "Fény villogtatása",
+    "removeItemsMarkedGone": "Eltűntként megjelölt elemek eltávolítása",
+    "removeSelectedItems": "Kiválasztott elemek eltávolítása"
+  },
+  "UAVSelector": {
+    "noMatchingUAVs": "Nincsenek találatok erre: \"{{filter}}\""
+  },
+  "UAVStatus": {
+    "noConnected": "Jelenleg nincs kapcsolódott drón"
+  },
+  "alerts": {
+    "acknowledgeAlerts": "Kattintson a riasztások nyugtázásához",
+    "clickToMute": "Kattintson a riasztások némításához.",
+    "muted": "A riasztások némítva vannak. Kattintson a némítás feloldásához."
+  },
+  "altitudeSummaryButton": {
+    "clickToChange": "Kattintson a módosításhoz {{altitudeType}}-re.",
+    "showingCurrent": "Maximum és minimum {{altitudeType}} kijelzése."
+  },
+  "antennaPositionIndicator": {
+    "antennaPositionNotKnown": "Ismeretlen antenna pozíció",
+    "clickToToggle": "Kattintson a lon/lat és az ECEF formátum közötti váltáshoz",
+    "copyToClipboard": "Másolás a vágólapra"
+  },
+  "augmentMappingButton": {
+    "assignSparesToEmptySlots": "Tartalékok hozzárendelése az üres helyekhez"
+  },
+  "authentication": "Felhasználó azonosítása",
+  "batteryStatusHeaderButton": "Átlagos és minimális töltési szintek kijelzése.",
+  "bearingCalculator": {
+    "addAtLeastTwoItems": "Adjon hozzá legalább két elemet a köztük lévő irány és távolság kiszámításához",
+    "bearing": ", irány: ",
+    "finalBearing": ", végső irány: ",
+    "initialBearing": ", kezdeti irány: ",
+    "selectTwoItems": "Válasszon ki pontosan két elemet a köztük lévő irány és távolság kiszámításához"
+  },
+  "broadcastButton": {
+    "disable": "Broadcast letiltása",
+    "enable": "Broadcast engedélyezése {{time}} másodpercig"
+  },
+  "coordinateAveragingDialogToolbar": {
+    "addNewDrone": "Új drón hozzáadása",
+    "copyCentroid": "Centroid másolása",
+    "pauseMeasurement": "Mérés szüneteltetése",
+    "removeSelected": "A kiválaszott eltávolítása",
+    "resetMeasurement": "Mérés visszaállítása",
+    "resumeMeasurement": "Mérés folytatása",
+    "setCentroidAsMapOrigin": "Centroid beállítása a térkép origójaként"
+  },
+  "environmentEditorDialog": {
+    "environmentSettings": "Környezeti beállítások",
+    "indoor": "Ez egy beltéri műsor. Megadhatja a terem sarkait, ahol a műsor zajlik (vizualizásiós célból).",
+    "outdoor": "Ez egy kültéri műsor. Adja meg legalább a koordináta rendszer origóját és irányát, hogy a Aerostem le tudja képezni a műsort GPS koordinátákba."
+  },
+  "fieldNotesPanel": {
+    "exportNotesAsFile": "Jegyzetek exportálása Markdown fájlként"
+  },
+  "filtering": {
+    "composite": "Összetett",
+    "filter": "Szűrő",
+    "filterBy": "Szűrés",
+    "label": {
+      "all": "Mind",
+      "errors": "Csak hibák",
+      "noTelemetry": "Csak telemetria nélküliek",
+      "sleeping": "Alvó üzemmód",
+      "warningsAndErrors": "Figyelmeztetések és hibák"
+    },
+    "shortLabel": {
+      "all": "Mind",
+      "errors": "Hibák",
+      "noTelemetry": "Nincs telem",
+      "sleeping": "Alvó mód",
+      "warningsAndErrors": "Figyelm/Hiba"
+    }
+  },
+  "fitAllFeaturesButton": {
+    "fitAllDrones": "Minden drón illesztése",
+    "fitAllFeatures": "Minden objektum illesztése"
+  },
+  "fullScreen": {
+    "exit": "Kilépés a teljes képernyős módból",
+    "on": "Teljes képernyős mód"
+  },
+  "general": {
+    "action": {
+      "apply": "Alkalmaz",
+      "cancel": "Mégse",
+      "clear": "Tisztítás",
+      "close": "Bezár",
+      "delete": "Törlés",
+      "discard": "Elvetés",
+      "edit": "Szerkesztés",
+      "export": "Exportálás",
+      "import": "Importálás",
+      "open": "Megnyitás",
+      "remove": "Eltávolítás",
+      "reset": "Alaphelyzet",
+      "retry": "Újrapróbálás",
+      "save": "Mentés",
+      "select": "Kijelölés",
+      "start": "Indítás",
+      "stop": "Megállítás"
+    },
+    "commands": {
+      "land": "Leszállás",
+      "positionHold": "Pozíció tartása",
+      "powerOff": "Kikapcsolás",
+      "powerOn": "Bekapcsolás",
+      "reboot": "Újraindítás",
+      "returnToHome": "Hazatérés",
+      "sleep": "Alvás",
+      "takeoff": "Felszállás"
+    },
+    "geography": {
+      "latitude": "Szélességi fok",
+      "longitude": "Hosszúsági fok"
+    },
+    "geometry": {
+      "rotation": "Elforgatás",
+      "zoom": "Nagyítás"
+    },
+    "status": {
+      "failed": "sikertelen",
+      "inProgress": "folyamatban",
+      "successful": "sikeres",
+      "waiting": "várakozik"
+    }
+  },
+  "geofence": {
+    "statusText": {
+      "automatic": "Automatikus geofence van használatban",
+      "error": "A műsor területe a geofence-en kívül esik",
+      "manual": "Kézi geofence van használatban",
+      "no": "Még nincs geofence beállítva"
+    }
+  },
+  "geofenceAction": {
+    "keepCurrent": "A jelenlegi művelet folytatása",
+    "report": "Csak jelentés",
+    "shutDown": "Kikapcsolás",
+    "smartLand": "Leszállás ütközéselkerüléssel",
+    "smartReturn": "Hazatérés ütközéselkerüléssel",
+    "stop": "Megáll és lebeg"
+  },
+  "header": {
+    "distanceSummary": "Felszállási pozíciótól mért legkisebb és legnagyobb távolság",
+    "velocitySummary": "Legnagyobb vízszintes és függőleges sebesség"
+  },
+  "help": "Segítség",
+  "indoorEnvironmentEditor": {
+    "coordinatesOfTheCorners": "A szoba sarkainak koordinátái",
+    "roomVisibleIn3D": "A szoba látható 3D nézetben"
+  },
+  "largeControlButtonGroup": {
+    "RTH": "Hazatérés",
+    "RTHAll": "Haza mind",
+    "arm": "Indítás",
+    "armAll": "Összes indítása",
+    "broadcast": "Broadcast",
+    "disarm": "Leállítás",
+    "disarmAll": "Összes leállítása",
+    "hold": "Pozíció tartás",
+    "holdAll": "Mind tartsa a pozíciót",
+    "land": "Leszállás",
+    "landAll": "Mind szálljon le",
+    "selectionOnly": "Csak a kijelöltek",
+    "shutdown": "Kikapcsolás",
+    "shutdownAll": "Összes kikapcsolása"
+  },
+  "lightControl": {
+    "connectToAServer": "Csatlakozzon egy szerverhez a fények irányításához",
+    "fromGCS": "A fények GCS-sel vezéreltek",
+    "notConnected": "Nem csatlakozik a szerverhez",
+    "notFromGCS": "A fények nem GCS-sel vezéreltek",
+    "restoreDefault": "Kattintson az alapértelmezett fényprogram visszaállításához",
+    "takeControl": "Kattintson az irányítás átvételéhez"
+  },
+  "lightControlGrid": {
+    "allOff": "Mind ki",
+    "allOn": "Mind be"
+  },
+  "map": {
+    "resetRotation": "Forgatás visszaállítása"
+  },
+  "mapCachingDialog": {
+    "offlineMaps": "Offline térképek"
+  },
+  "mapCachingPanel": {
+    "clearChache": "Gyorsítótár törlése",
+    "connectToServer": "Csatlakozás egy offline térkép támogatással rendelkező szerverhez",
+    "serverNotSupport": "A szerver nem támogatja az offline térkép gyorsítótárazását",
+    "serverSupport": "A szerver támogatja az offline térkép gyorsítótárazását",
+    "useCachedMapTiles": "Szerveren gyorsítótárazott térképcsempék használata"
+  },
+  "mapContextMenu": {
+    "clearExclusionZone": "Kizárási zóna törlése",
+    "clearGeofence": "Geofence törlése",
+    "details": "Részletek…",
+    "flyHere": "Repülj ide",
+    "flyHereAtAltitude": "Repülj ide ebben a magasságban…",
+    "properties": "Tulajdonságok…",
+    "setMapOriginHere": "Térkép origó beállítása ide",
+    "setShowOriginHere": "Műsor origó beállítása ide",
+    "subtractPolygon": "{{subtrahend}} kivonása {{minuend}}-ból/-ből",
+    "unnamedPolygon": "névtelen sokszög",
+    "useAsExclusionZone": "Alkalmazás kizárási zónaként",
+    "useAsGeofence": "Alkalmazás geofence-ként"
+  },
+  "mappingButtonGroup": {
+    "editMapping": "Hozzárendelés szerkesztése",
+    "hideEmptyMissionSlots": "Üres küldetéshelyek elrejtése",
+    "showEmptyMissionSlots": "Üres küldetéshelyek megjelenítése"
+  },
+  "mappingEditorToolbar": {
+    "assignSpares": "Tartalékok hozzárendelése",
+    "clearMissing": "Hiányzó törlése",
+    "clickToEdit": "Kattintson egy hely szerkesztéséhez.",
+    "dragNodes": "Húzza az ikonokat a hozzárendelés átrendezéséhez.",
+    "exportMapping": "Hozzárendelés exportálása…",
+    "importMapping": "Hozzárendelés importálása…"
+  },
+  "mappingSlotEditorToolbar": {
+    "reverseDirection": "Tartsa nyomva a <kbd>Shift</kbd>-et az irány megfordításához.",
+    "selectNextEmptySlot": "Következő üres hely kiválasztása"
+  },
+  "mappingToggleButton": {
+    "sortByMissionID": "Rendezés küldetés ID alapján"
+  },
+  "measurementList": {
+    "addDrone": "Adjon hozzá egy drónt a méréshez az eszköztár + gombjával",
+    "copyToClipboard": "Másolás a vágólapra",
+    "duration": "Időtartam",
+    "noSamplesYet": "Még nincs minta",
+    "samples": "minta",
+    "stdDevInXY": "szórás XY-ban",
+    "waitingForSamples": "Várakozás a mintákra…"
+  },
+  "mission": {
+    "planner": {
+      "schema": {
+        "error": "Hiba a művelet paraméter sémájának szerverről történő betöltésekor",
+        "loading": "Műveleti paraméterek lekérdezése…",
+        "notFound": "A csatlakoztatott szerver nem biztosít sémát a kiválasztott művelet típushoz"
+      }
+    }
+  },
+  "navigationButtonGroup": {
+    "fly": "Repülés",
+    "resetZoom": "Nagyítás visszaállítása",
+    "rotateCamera": "A kamera drónok irányába forduljon",
+    "walk": "Séta"
+  },
+  "navigationInstructions": {
+    "altitude": "Magasság",
+    "arrows": "Nyilak",
+    "flyForwardBackward": "Repülés előre / hátra",
+    "lookAround": "Körbenézés",
+    "moveSideways": "Oldalmozgás",
+    "noInstruction": "Ehhez a navigációs módhoz nincs útmutató",
+    "run": "Futás",
+    "walkAround": "Sétálás"
+  },
+  "notifications": {
+    "connectedToAerostemServer": "Csatlakozva a Aerostem szerverhez"
+  },
+  "outdoorEnvironmentEditor": {
+    "AHL": "Kezdeti pozíció feletti magasság (AHL)",
+    "AMSL": "Átlagos tengerszint feletti magasság (AMSL)",
+    "AMSLReference": "AMSL referencia",
+    "altitudeControl": "Magasság kontroll és RTK korrekciók",
+    "coordinateSystem": "Koordinátarendszer",
+    "copyMapOriginToShow": "Térkép origó másolása műsor origóra",
+    "copyShowOriginToMap": "Műsor origó másolása térkép origóra",
+    "fitCoordinateSysToCurrentDrone": "Koordinátarendszer illesztése az aktuális drón pozíciókra",
+    "setToAverageAMSL": "Beállítás az aktív drónok átlagos AMSL-ére",
+    "showCoordinateSystemAppliedToMap": "A műsor koordinátarendszere alkalmazva a térképre.",
+    "showCoordinateSystemUpdatedFromMap": "A műsor koordinátarendszere frissítve a térképről.",
+    "showIsControlledBasedOn": "A műsor ezalapján irányítva…",
+    "showOrientation": "Műsor iránya",
+    "showOrigin": "Műsor origója",
+    "warningText": "Az automatikus műsor origó és irány számítás feltételezi, hogy az összes drón a műsor X tengelye felé mutat <underline>vagy</underline>, hogy a fenti beállítással meghatározta az eltolásukat az X tengelyhez képest. Az abszolút felszállási irányok nem támogatottak."
+  },
+  "parameterListSidebar": {
+    "import": "Importálás…",
+    "nextStep": "Tovább",
+    "removeAllItems": "Minden elem eltávolítása a jegyzékből"
+  },
+  "parameterUploadMainPanel": {
+    "parameterNamesValues": "Paraméter nevek és értékek",
+    "parameterUploadHint": "Paraméter hozzáadásához használja a <kbd>⇧</kbd> + <kbd>Enter</kbd> billentyűkombinációt. A jegyzékből való eltávolításhoz kattintson a paraméterre az oldalsávon.",
+    "rebootAfterUpload": "Újraindítás feltöltés után",
+    "specifyEntries": "Adja meg a bejegyzéseket név=érték formában, soronként egy paramétert."
+  },
+  "parameterUploadSetupDialog": {
+    "uploadParameters": "Paraméterek feltöltése"
+  },
+  "preferences": "Beállítások",
+  "preflightTab": {
+    "enterCheckItems": "Írja be a preferált manuális ellenőrzőlista elemeket, soronként egyet.",
+    "headingsHint": "A kettősponttal (:) végződő sorok címsorokká válnak.",
+    "manualPreflightCheckItems": "Manuális ellenőrzőlista elemek",
+    "preflightCheckItems": "Ellenőrzőlista elemek"
+  },
+  "recalculateMappingButton": {
+    "findOptimalMapping": "Optimális hozzárendelés keresése",
+    "recalculateMapping": "Hozzárendelés újraszámolása"
+  },
+  "safetyDialog": {
+    "geofence": "Geofence",
+    "geofenceTab": {
+      "clear": "A jelenlegi geofence törlése",
+      "errors": {
+        "distance": "Hiba történt a távolság számítása közben",
+        "height": "Hiba történt a magasság számítása közben"
+      },
+      "fenceAction": "Geofence művelet",
+      "fenceActionHelperText": "Ezen opciók támogatása a drónokon múlik; nem minden opció támogatott minden drón által.",
+      "fenceActionLabel": "Elsődleges geofence művelet",
+      "horizontal": "Vízszintes",
+      "maxAltitude": "Max magasság",
+      "maxDistance": "Max távolság",
+      "maxVertexCount": "Maximális csúcsszám",
+      "proposedLimits": "A jelenlegi küldetés javasolt korlátai",
+      "safetyMargins": "Biztonsági távolságok",
+      "simplifyPolygon": "Sokszög egyszerűsítése",
+      "vertexCountReduction": "Csúcsszám csökkentése",
+      "vertical": "Függőleges"
+    },
+    "settings": "Beállítások",
+    "title": "Biztonság"
+  },
+  "safetySettingsTab": {
+    "criticalBatteryVoltageHelperText": "Kritikusan alacsony akkumulátorfeszültség [V]-ban, ami alatt a kritikus akkumulátorszint biztonsági művelet aktiválódik.",
+    "criticalBatteryVoltageLabel": "Kritikus akkumulátorfeszültség",
+    "emptyValues": "Az üres értékek azt eredményezik, hogy az érintett biztonsági értékek nem kerülnek felülírásra.",
+    "lowBatteryThresholdHelperText": "Alacsony akkumulátorszint határérték típusa és értéke, ami alatt az alacsony töltöttség biztonsági művelet aktiválódik.",
+    "lowBatteryThresholdType": {
+      "disabled": "Tiltva",
+      "noOverride": "Nincs felülírás",
+      "percentageBased": "Százalék alapú",
+      "voltageBased": "Feszültség alapú"
+    },
+    "lowBatteryThresholdTypeLabel": "Alacsony akku küszöb típusa",
+    "lowBatteryThresholdValueLabel": "Küszöbérték",
+    "returnToHomeAltitudeHelperText": "Magasság [mAHL]-ben, amelyen a visszatérési műveletek végrehajtásra kerülnek.",
+    "returnToHomeAltitudeLabel": "Hazatérési magasság",
+    "returnToHomeSpeedHelperText": "Vízszintes sebesség [m/s]-ban, amellyel a visszatérési műveletek végrehajtásra kerülnek.",
+    "returnToHomeSpeedLabel": "Hazatérési sebesség"
+  },
+  "savedLocation": {
+    "addNew": "Új helyszín hozzáadása",
+    "edit": "Helyszín szerkesztése"
+  },
+  "savedLocationEditor": {
+    "copyFromMapView": "Másolás térképnézetből",
+    "createNew": "Új helyszín létrehozása",
+    "editSaved": "Mentett helyszín szerkesztése",
+    "name": "Név",
+    "notes": "Jegyzetek",
+    "zoomLevel": "Nagyítás mértéke"
+  },
+  "serverConnectionStatus": {
+    "clockSkew": "Óra szinkronizálás",
+    "clocksSync": "Az órák szinkronizálva",
+    "connected": "Kapcsolódva",
+    "connecting": "Kapcsolódás…",
+    "disconnected": "Leválasztva a szerverről",
+    "disconnecting": "Leválasztás…",
+    "roundTripTime": "Válaszadási idő",
+    "unknownState": "Ismeretlen állapot",
+    "version": "Szerver verzió"
+  },
+  "serverSettingsDialog": {
+    "autodetected": "Automatikusan észlelt",
+    "autodiscoveryIsNotAvailable": "Az automatikus felfedezés nem elérhető ebben a verzióban.",
+    "connect": "Csatlakozás",
+    "connecting": "Csatlakozás…",
+    "connectingTo": "Csatlakozás {{hostName}}-hoz…",
+    "disconnect": "Leválasztás",
+    "enterManually": "Manuális megadás",
+    "hostname": "Hosztnév",
+    "localConnection": "Helyi kapcsolat",
+    "manual": "Manuális",
+    "pleaseWait": "Kérem várjon…",
+    "port": "Port",
+    "preconfiguredServer": "Előre konfigurált szerver",
+    "scanningNetwork": "Szerverek keresése a hálózaton…",
+    "secureConnection": "Biztonságos kapcsolat",
+    "serverSelectionRestricted": "Ez a verzió nem támogatja a más szerverekhez való csatlakozást.",
+    "unsecured": "(nem biztonságos)",
+    "unsecuredConnection": "Nem biztonságos kapcsolat",
+    "useSecureConnection": "Biztonságos kapcsolat használata",
+    "useWebSocketHelperText": "Csak visszafelé kompatibilitásra.",
+    "useWebSocketLabel": "WebSocket protokoll használata TCP helyett"
+  },
+  "settings": {
+    "display": {
+      "coordinateFormat": "Koordináta formátum",
+      "enableExperimentalFeatures": "Kísérleti funkciók engedélyezése (haladó)",
+      "flatEarthCoordinateSystem": "Lapos föld koordináta rendszer",
+      "hideInactiveSegmentsOnDarkLCD": "LCD órák kontrasztarányának javítása sötét módban",
+      "language": "Nyelv",
+      "mapOrigin": "A térkép origója",
+      "mapWidgets": "Térkép eszközök",
+      "miscellaneous": "Egyéb",
+      "operationModes": "Üzemmódok",
+      "optimizeForSingleUAV": "A felület optimalizálása egy drónos üzemmódhoz",
+      "optimizeUIForTouch": "A felület optimalizálása érintőképernyős eszközökre",
+      "showMouseCoordinates": "Egérkoordináták megjelenítése",
+      "showScaleLine": "Léptékvonal megjelenítése"
+    },
+    "tabs": {
+      "apiKeys": "API kulcsok",
+      "display": "Megjelenítés",
+      "preflight": "Ellenőrzőlista",
+      "server": "Szerver",
+      "threeDView": "3D nézet",
+      "uavs": "Drónok"
+    },
+    "threeDView": {
+      "1x1": "10x10 méteres",
+      "2x2": "20x20 méteres",
+      "auto": "Automatikus",
+      "dark": "Sötét",
+      "environment": "Környezet",
+      "grid": "Rács",
+      "indoor": "Beltér",
+      "light": "Világos",
+      "lighting": "Fényviszonyok",
+      "none": "Nincs rács",
+      "outdoor": "Kültér",
+      "rendering": "Renderelés",
+      "scenery": "Tér",
+      "showAxes": "Koordinátarendszer tengelyeinek megjelenítése",
+      "showHomePositions": "Kezdő pozíciók megjelenítése",
+      "showLandingPositions": "Leszállási pozíciók megjelenítése",
+      "showStatistics": "Renderelési statisztikák megjelenítése (haladó)",
+      "showTrajectoriesOfSelection": "A kiválaszott drónok röppályájának megjelenítése"
+    },
+    "uavs": {
+      "batteryDisplayStyle": "Töltöttség megjelenítési stílusa",
+      "cellCount": "Cellaszám",
+      "criticalTreshold": "Kritikus határérték",
+      "defaultBatterySettings": "Alapértelmezett akkumulátor beállítások",
+      "desiredHeadingAccuracy": "Elvárt iránypontosság",
+      "desiredPlacementAccuracy": "Elvárt elhelyezési pontosság",
+      "forget": "A nem látható drónok elfelejtése ennyi idő után",
+      "fullCharge": "Teljes töltés",
+      "gone": "A drónok megjelölése eltűntként ennyi idő után",
+      "lowTreshold": "Alsó határérték",
+      "missionSetup": "Küldetés beállítás",
+      "missionSetupDescription": "Több drónos küldetések előtt használandó, annak ellenőrzésére, hogy minden drón az előírt felszállási pozícióban és megfelelő irányban áll-e.",
+      "warn": "Figyelmeztessen azokra a drónokra, amelyek nem láthatók legalább ennyi ideje"
+    }
+  },
+  "show": {
+    "authorizationReq": "Jóváhagyás szükséges a felszállás előtt",
+    "authorizeTheStart": "A kezdés jóváhagyása",
+    "authorized": "A műsor kezdése engedélyezett",
+    "chooseStartTime": "Indítási időpont kiválasztása",
+    "chooseStartTimeNotSet": "Még nincs beállítva",
+    "clear": "A betöltött műsor törlése",
+    "clock": "Műsor óra:",
+    "dronePlacementApproved": "A drón elrendezés jóváhagyva",
+    "dronePlacementCheck": "A drón elrendezés ellenőrzése…",
+    "dronePlacementError": "Hiba az elrendezésben",
+    "dronePlacementPartial": "A drón elrendezés részlegesen jóváhagyva",
+    "fromCloud": "Műsor betöltése a felhőből",
+    "indoor": "Beltér",
+    "loading": "Kérem várjon, a műsor fájl töltődik…",
+    "manualPreflightChecks": "Felszállás előtti manuális ellenőrzés",
+    "noFileLoaded": "Nincs betöltve műsor fájl",
+    "onboardPreflightChecks": "Automata fedélzeti ellenőrzés",
+    "outdoor": {
+      "invalidAltitudeReference": "Kültér, érvénytelen magassági referencia",
+      "relativeToAMSL": "Kültér, az AMSL-hez képest {{altitude}}m",
+      "relativeToHome": "Kültér, a felszállási ponthoz képest",
+      "unknownAltitudeReference": "Kültér, ismeretlen magassági referencia"
+    },
+    "placementAccuracy": "Az elhelyezés pontossága ≤ {{distance}}",
+    "reload": "A műsor újratöltése",
+    "revokeAuthorization": "Kattintson ide a jóváhagyás visszavonásához",
+    "selectFile": "Válassza ki, vagy húzza ide a műsor fájlt",
+    "setupEnvironment": "Környezet beállítása",
+    "setupGeofence": "Geofence beállítása",
+    "setupTakeoffArea": "Felszállási terület beállítása",
+    "startMethod": {
+      "AUTO": "A műsor automatikusan el fog indulni",
+      "RC": "Az indításhoz használja a kapcsolót a távirányítón"
+    },
+    "startTimeNotSet": "A kezdés időpontja még nincs beállítva",
+    "startsAt": "{{time}}-kor kezdődik",
+    "takeOffMore": "{{quantity}} drón automatikusan fel fog szállni",
+    "takeOffNoPosition": "Legalább egy drón számára még nincs pozíció",
+    "takeOffOne": "Egy drón automatikusan fel fog szállni",
+    "takeOffPlace": "Helyezze a drónokat a felszállási területre",
+    "unknown": "Ismeretlen",
+    "unknownStartMode": "A műsor ismeretlen indítási módot használ",
+    "uploadShowData": "Műsor adatok feltöltése",
+    "uploadShowDataLoading": "Kérem várjon, feltöltés…",
+    "uploadShowDataStart": "Kattintson ide a feltötés megkezdéséhez"
+  },
+  "sidebar": {
+    "missionType": "Küldetés típus: {{missionType}}"
+  },
+  "sorting": {
+    "ascending": "Növekvő",
+    "descending": "Csökkenő",
+    "label": {
+      "agl": "Talaj feletti magasság",
+      "ahl": "Magasság a kiindulási szinthez képest",
+      "amsl": "Magasság (MSL)",
+      "battery": "Akkumulátor",
+      "default": "Alapértelmezett",
+      "flightMode": "Repülési mód",
+      "gpsFix": "GPS pontosság",
+      "heading": "Irány",
+      "status": "Státusz"
+    },
+    "shortLabel": {
+      "agl": "AGL",
+      "ahl": "AHL",
+      "amsl": "AMSL",
+      "battery": "Akku",
+      "default": "Alap",
+      "flightMode": "Mód",
+      "gpsFix": "GPS fix",
+      "heading": "Irány",
+      "status": "Státusz"
+    },
+    "sortBy": "Rendezés"
+  },
+  "startTimeDialog": {
+    "SMPTETimecode": "SMPTE időkód",
+    "errors": {
+      "invalidDate": "Érvénytelen dátum",
+      "invalidTime": "Érvénytelen idő",
+      "pastDate": "Nem lehet múltbéli a dátum",
+      "pastTime": "Nem lehet múltbéli az idő"
+    },
+    "localTime": "Helyi idő",
+    "reference": "Referencia",
+    "resetForm": "Űrlap visszaállítása",
+    "setNewStartTime": "Új kezdési időpont beállítása",
+    "setTheStartTime": "Állítsa be a műsor kezdési időpontját alább",
+    "startDate": "Kezdési dátum",
+    "startShowAuto": "A műsor indítása automatikusan",
+    "startShowWithRC": "A műsor indítása kizárólag távirányítóval",
+    "startSignal": "Kezdési jel",
+    "startTime": "Kezdési idő",
+    "startTimeHms": "Kezdési idő (óra:perc:másodperc)",
+    "suggestions": "Javaslatok:"
+  },
+  "startTimeDisplay": {
+    "noStartTimeIsSet": "Jelenleg nincs indítási időpont beállítva.",
+    "startTimeIsSetTo": "A kezdés beállítva erre az időpontra: <strong>{{formattedStartTime}}</strong>"
+  },
+  "startUploadButton": {
+    "startSelected": "Indítás a kiválasztottakra"
+  },
+  "surveyStatusIndicator": {
+    "noSurveyInformation": "Nincsenek felmérési adatok"
+  },
+  "takeoffAreaSetupDialog": {
+    "allDroneOnline": "Minden misszióban résztvevő drón online állapotban.",
+    "allDronesAtTakeoffPositions": "Minden drón a felszállási pozíciójában van.",
+    "allDronesFacingCorrectDirection": "Minden drón a megfelelő irányba néz.",
+    "allSlotsFilled": "A küldetés összes helye be van töltve.",
+    "approveTakeoffAreaArrangement": "A felszállási terület elrendezésének jóváhagyása",
+    "emptySlots": "Üres helyek:",
+    "misaligned": "Rosszul tájolva:",
+    "misplaced": "Rossz helyen:",
+    "missing": "Hiányzó:",
+    "noDrones": "Nincs drón a küldetésben.",
+    "placeVirtualDrones": "Virtuális drónok elhelyezése",
+    "takeoffAreaSetup": "Felszállási terület beállítások"
+  },
+  "takeoffHeadingSpecEditor": {
+    "UAVheadings": "Drónok irányai a felszállás előtt…",
+    "compassDirection": "Iránytű iránya",
+    "headingOffset": "Irány eltolás",
+    "setToAvergaeHeading": "Átlagos irány beállítása az aktív drónokra",
+    "specifiedByAbsoluteCompassDirection": "Az abszolút iránytű irány határozza meg",
+    "specifiedRelativeToShowOrientation": "A műsor irányához képest van megadva",
+    "unspecified": "Nem meghatározott"
+  },
+  "toolbox": {
+    "averagingInProgress": "{{number}} folyamatban",
+    "coordinateAveraging": "Koordináta átlagolás",
+    "licenseInfo": "Licenc információ",
+    "offlineMaps": "Offline térképek",
+    "paramUpload": "Paraméter feltöltése",
+    "tooltip": "Eszköztár",
+    "uploadInProgress": "Feltöltés folyamatban"
+  },
+  "uploadPanel": {
+    "cancelUpload": "Feltöltés megszakítása",
+    "flashLightsWhereFailed": "Azon drónok villogtatása, ahol nem sikerült a feltöltés",
+    "retryFailedAttempts": "Sikertelen kísérletek automatikus újrapróbálása",
+    "uploadAttemptFailed": "A feltöltés sikertelen.",
+    "uploadCancelled": "A feltöltést a felhasználó megszakította.",
+    "uploadFinishedSuccessfully": "A feltöltés sikeresen befejeződött.",
+    "uploadInProgress": "Feltöltés folyamatban…",
+    "uploadNotFinishedYet": "A feltöltés még nem fejeződött be."
+  },
+  "uploadStatusLegend": {
+    "clearUploadQueue": "Feltöltési sor törlése",
+    "restartSuccessfulItems": "Sikeres elemek újraindítása",
+    "retryFailedItems": "Sikertelen elemek újrapróbálása"
+  },
+  "uploadStatusLights": {
+    "noAvailableUAVs": "Nincs elérhető drón a feltöltéshez."
+  },
+  "view": {
+    "beacon-list": "Jeladók",
+    "dock-list": "Dokkolók",
+    "feature-list": "Objektumok",
+    "field-notes": "Terepi jegyzetek",
+    "layer-list": "Rétegek",
+    "lcd-clock-panel": "Órák",
+    "light-control": "Fényvezérlés",
+    "log-panel": "Eseménynapló",
+    "map": "Térkép",
+    "mission-editor": "Küldetésszerkesztő",
+    "saved-location-list": "Helyszínek",
+    "show-control": "Műsorvezérlés",
+    "three-d-view": "3D Nézet",
+    "uav-details": "Drón részletek",
+    "uav-list": "Drónok"
+  },
+  "weatherMiniList": {
+    "compassDeclination": "Iránytű deklináció",
+    "kpIndex": "Kp index",
+    "lastUpdate": "Utolsó frissítés",
+    "noWeatherInfo": "Nincs időjárási információ a mai napra",
+    "refreshing": "Frissítés…",
+    "sunrise": "Napkelte",
+    "sunset": "Napnyugta",
+    "timezone": "Időzóna",
+    "utcOffset": "UTC eltolás"
+  }
+}
